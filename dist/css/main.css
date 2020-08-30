@@ -4,9 +4,19 @@
   text-align: center;
 }
 
-.dice {
+.player__one {
   text-align: center;
   display: inline-block;
+}
+
+.player__two {
+  text-align: center;
+  display: inline-block;
+}
+
+.copyright {
+  text-align: center;
+  padding-top: 5%;
 }
 
 body {
