@@ -1,4 +1,11 @@
 @import './variables';
+@import './container';
+@import './dice';
+@import './footer';
+
+@function weight($weight-names) {
+  @return map-get($font-weights, $weight-names);
+}
 
 body {
   background-color: #393e46;
@@ -8,11 +15,15 @@ body {
 h1 {
   font-family: $font-header;
   color: $text-color;
+  margin: 30px;
+  font-size: 8rem;
 }
 
 p {
   font-family: $font-paragraph;
   color: $text-color;
+  font-size: 2rem;
+  font-weight: weight(regular);
 }
 
 img {
